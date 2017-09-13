@@ -41,20 +41,15 @@ p {
 }
 
 li {
-  padding: 5px 0px 5px 0px;
   list-style-type: none;
-}
-
-ul {
-  text-align: center;
+  padding: 5px 0;
+  margin-left: -40px;
 }
 
 .headlist {
   font-size: 18px;
   color: white;
   text-decoration: underline;
-  list-style-type: none;
-
 }
 
 .contactlist {
