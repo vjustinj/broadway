@@ -11,19 +11,21 @@ h1 {
 
 h2 {
   font-size: 23px;
-  font-wight: bold;
+  font-weight: bold;
   color: white;
+  background-image: url("/resources/flatiron.png");
+  /*background-color: black;*/
+
 }
 
 h3 {
-  size: 32px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 h4 {
   font-size: 23px;
   font-weight: bold;
-  background-image: url("resources/the-flat-iron-building.png");
 }
 
 h6 {
@@ -38,16 +40,29 @@ p {
 }
 
 li {
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+.headlist {
   font-size: 18px;
   color: white;
   text-decoration: underline;
+  list-style-type: none;
+
+}
+
+.contactlist {
+  font-size: 14px;
 }
 
 #footnav {
   text-decoration: underline;
   font-weight: bold;
+  padding: 10px;
 }
 
 .header {
-  background-image: url("resources/the-flatiron-building.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-color: black;
 }
