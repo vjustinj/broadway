@@ -13,7 +13,7 @@ h2 {
   font-size: 23px;
   font-weight: bold;
   color: white;
-  background-image: url("/resources/flatiron.png");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   /*background-color: black;*/
 
 }
@@ -33,6 +33,7 @@ h6 {
   color: white;
   background-color: dimgray;
   text-align: left;
+  padding: 3px;
 }
 
 p {
@@ -40,8 +41,12 @@ p {
 }
 
 li {
-  margin: 10px 0;
+  padding: 5px 0px 5px 0px;
   list-style-type: none;
+}
+
+ul {
+  text-align: center;
 }
 
 .headlist {
@@ -56,13 +61,12 @@ li {
   font-size: 14px;
 }
 
-#footnav {
-  text-decoration: underline;
-  font-weight: bold;
-  padding: 10px;
-}
-
 .header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   background-color: black;
+}
+
+#footnav {
+  text-decoration: underline;
+  font-weight: bold;
 }
